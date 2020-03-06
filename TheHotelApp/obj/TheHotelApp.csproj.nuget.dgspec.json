@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "A:\\HotelApp\\HotelApp\\TheHotelApp\\TheHotelApp.csproj": {}
+  },
+  "projects": {
+    "A:\\HotelApp\\HotelApp\\Dashboard\\Dashboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\HotelApp\\HotelApp\\Dashboard\\Dashboard.csproj",
+        "projectName": "Dashboard",
+        "projectPath": "A:\\HotelApp\\HotelApp\\Dashboard\\Dashboard.csproj",
+        "packagesPath": "C:\\Users\\Sushil Shrestha\\.nuget\\packages\\",
+        "outputPath": "A:\\HotelApp\\HotelApp\\Dashboard\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sushil Shrestha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "A:\\HotelApp\\HotelApp\\SQLHelper\\SQLHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\HotelApp\\HotelApp\\SQLHelper\\SQLHelper.csproj",
+        "projectName": "SQLHelper",
+        "projectPath": "A:\\HotelApp\\HotelApp\\SQLHelper\\SQLHelper.csproj",
+        "packagesPath": "C:\\Users\\Sushil Shrestha\\.nuget\\packages\\",
+        "outputPath": "A:\\HotelApp\\HotelApp\\SQLHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sushil Shrestha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "A:\\HotelApp\\HotelApp\\TheHotelApp\\TheHotelApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\HotelApp\\HotelApp\\TheHotelApp\\TheHotelApp.csproj",
+        "projectName": "TheHotelApp",
+        "projectPath": "A:\\HotelApp\\HotelApp\\TheHotelApp\\TheHotelApp.csproj",
+        "packagesPath": "C:\\Users\\Sushil Shrestha\\.nuget\\packages\\",
+        "outputPath": "A:\\HotelApp\\HotelApp\\TheHotelApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sushil Shrestha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "A:\\HotelApp\\HotelApp\\Dashboard\\Dashboard.csproj": {
+                "projectPath": "A:\\HotelApp\\HotelApp\\Dashboard\\Dashboard.csproj"
+              },
+              "A:\\HotelApp\\HotelApp\\SQLHelper\\SQLHelper.csproj": {
+                "projectPath": "A:\\HotelApp\\HotelApp\\SQLHelper\\SQLHelper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
